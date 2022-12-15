@@ -9,7 +9,7 @@ import moveimg from "../src/images/moveimg.png";
 
 export default function Community() {
   useEffect(() => {
-    AOS.init({ duration: 2000 });
+    AOS.init({ duration: 3000 });
   }, []);
   return (
     <div class="grid grid-cols-2 gap-4 pl-10 py-[120px] bg-[#111b24] ">
