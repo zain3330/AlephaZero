@@ -1,0 +1,27 @@
+/* .abc {
+  width: 0% !important;
+} */
+/* .slick-slide {
+  width: 0% !important;
+} */
+/* .slick-current {
+  width: 0% !important;
+}
+.slick-active {
+  width: 0% !important;
+} */
+/* .slick-slide slick-active slick-current {
+  width: 0%;
+}
+.slick-slide slick-cloned {
+  width: 0%;
+}
+.slide > div {
+  width: 0%;
+}
+.slick-slide > div {
+  transform: scale(0.91);
+  width: 0;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  width: 0px;
+} */
