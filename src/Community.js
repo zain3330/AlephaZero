@@ -8,16 +8,15 @@ import "aos/dist/aos.css";
 import moveimg from "../src/images/moveimg.png";
 
 export default function Community() {
-  useEffect(() => {
-    AOS.init({ duration: 3000 });
-  }, []);
   return (
-    <div class="grid grid-cols-2 gap-4 pl-10 py-[120px] bg-[#111b24] ">
+    <div class="grid md:grid-cols-2 grid-cols-1 gap-4 md:pl-10 pl-5 py-[120px] bg-[#111b24] ">
       <div data-aos="zoom-in">
-        <div>
+        <div className="py-10 md:py-0 ">
           <MouseParallaxContainer globalFactorX={0.1} globalFactorY={0.1}>
             <MouseParallaxChild factorX={1} factorY={1}>
-              <img src={moveimg} className="h-[528px] w-[528px] "></img>
+              <img
+                src={moveimg}
+                className="h-[328px] w-[328px] md:h-[528px] md:w-[528px] "></img>
             </MouseParallaxChild>
           </MouseParallaxContainer>
         </div>
@@ -26,13 +25,13 @@ export default function Community() {
       <div class="">
         <div
           data-aos="fade-left"
-          className="flex flex-col justify-center   my-32 px-14 ">
+          className="flex flex-col justify-center   my-20 md:my-32 px-5 md:px-14 ">
           <p className="text-[34px] text-white ">
             <strong>Community</strong> of Over 100,000
             <br /> People
           </p>
           <hr class="my-4 h-[3px]  w-[10%] bg-[#7FF4E3] border-0 dark:bg-gray-700" />
-          <p className="text-[16px] w-[350px]  pt-2 text-[#bccbd6]">
+          <p className="text-[18px] max-w-[350px]  pt-2 text-[#bccbd6]">
             Join us and get involved in a number of ongoing educational
             activities run not only by the core team but also by the community
             directly.

@@ -1,6 +1,7 @@
 // import React from "react";
 // import lftimg from "../src/images/leftimg.jpg";
 // import MainBlockComponent from "./MainBlockComponent";
+
 // export default function MainBlock() {
 //   return (
 //     <MainBlockComponent
@@ -13,4 +14,3 @@
 //     />
 //   );
 // }
-"use strict";

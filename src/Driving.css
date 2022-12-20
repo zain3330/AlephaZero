@@ -49,6 +49,10 @@
   width: 100%;
   height: auto;
 }
-.slick-slide.slick-center {
-  color: aliceblue;
+.slick-current,
+.slick-center {
+  opacity: 1 !important;
+}
+.slick-slide {
+  opacity: 0.3;
 }

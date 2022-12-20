@@ -65,9 +65,6 @@ const data = [
 ];
 
 export default function Driving() {
-  useEffect(() => {
-    AOS.init({ duration: 3000 });
-  }, []);
   const settings = {
     className: "center",
     centerPadding: "15px",
@@ -85,14 +82,14 @@ export default function Driving() {
     vertical: true,
   };
   return (
-    <div class="grid grid-cols-2 gap-4 px-12 items-center  py-10 bg-[#111b24]">
+    <div class="grid md:grid-cols-2  grid-cols-1 gap-4 px-12 items-center   bg-[#111b24]">
       <div data-aos="fade-right">
-        <div className="flex flex-col justify-center    px-5 ">
+        <div className="flex flex-col justify-center md:pb-0 pb-14   md:px-5 px-0 py-40 md:py-0 ">
           <p className="text-[34px] text-white ">
             <strong>Driving</strong> Web3 Adoption
           </p>
           <hr class="my-4 h-[3px]  w-[15%] bg-[#7FF4E3] border-0 dark:bg-gray-700" />
-          <p className="text-[18px]  w-[400px] pt-2 text-[#bccbd6]">
+          <p className="text-[18px]  max-w-[400px] pt-2 text-[#bccbd6]">
             Aleph Zero bridges the gap between scalability, security, developer
             friendliness, and cost of use.  Moreover, the network will boast a
             native privacy stack to further enable you to build solutions that
@@ -116,8 +113,8 @@ export default function Driving() {
             return (
               <>
                 <div className="flex items-center ">
-                  <div className="w-[24px]  h-[85px] mb-3  bg-[#14202a] overflow-hidden border-[2px] border-[#1B2B38] border-l-[#14202a]"></div>
-                  <div className="bg-[#121D26] ml-3  mb-3 mr-3  px-5 py-2 w-[460px] border-2 border-[#1B2B38]">
+                  <div className="w-[24px]  h-[85px] mb-3  bg-[#14202a] overflow-hidden border-[2px] border-[#1B2B38] border-l-[#14202a] "></div>
+                  <div className="bg-[#121D26] ml-3  mb-3 mr-3  px-5 py-2 w-[460px] border-2 border-[#1B2B38] ">
                     <div className="flex   ">
                       <div className="">
                         <img

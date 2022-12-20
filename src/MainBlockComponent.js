@@ -1,40 +1,41 @@
-import React, { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
-export default function Block3() {
-  useEffect(() => {
-    AOS.init({ duration: 3000 });
-  }, []);
+import React from "react";
+// import lftimg from "../src/images/leftimg.jpg";
+import "../src/Block.css";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
+
+export default function MainBlockComponent(props) {
   return (
-    <div class="bg-[#111b24]  ">
-      <div className="rounded-lg  bg-[#111b24]   shadow-lg  h-[350px] bg-pack-train2 bg-no-repeat pt-8   px-8">
-        <div data-aos="fade-left" className=" ">
-          <div class="abc  flex justify-end items-center pt-8 h-full  ">
-            <div class="  flex flex-col md:flex-row md:max-w-[650px] rounded-lg bg-white shadow-lg">
-              <div className="zoomWrapper">
+    <div class="bg-[#111b24] py-10  ">
+      <div
+        className={`rounded-lg  bg-[#111b24]  shadow-lg  h-[350px] bg-${props.bg}   bg-no-repeat bg-contain  md:px-8 px-1 `}>
+        <div data-aos={`${props.animation}`} className=" ">
+          <div
+            className={` abc  ${props.justifycontent} flex items-center ${props.padding} h-full   `}>
+            <div class="  flex flex-col md:flex-row md:max-w-[600px] rounded-lg bg-white shadow-lg">
+              <div className="zoomWrapper ">
                 <img
                   class=" inner-img w-full h-96 md:h-[310px] object-cover md:w-[400px] rounded-t-sm md:rounded-none "
-                  src={
-                    "https://alephzero.org/storage/a0-carbonpositive-sml-16698045328B0qS.jpg"
-                  }
+                  src={props.icon}
                   alt=""
                 />
               </div>
-              <div class="p-6 flex flex-col justify-start bg-[#111b24]">
+              <div class="p-6 flex flex-col justify-start bg-[#111b24] ">
                 <div className="flex justify-start mr-10 ">
-                  <div class="h-[50px]  mt-1  bg-[#7FF4E3] w-[3px]"></div>
+                  <div
+                    className={`${props.lineh}  mt-1  bg-[#7FF4E3] w-[2px]`}></div>
                   <h4
-                    class="text-white  text-xl w-[240px] 
+                    class="text-white  text-xl w-[230px] 
                   
                   
                    font-medium ml-5 mb-2 ">
-                    Curious about
-                    <strong className="pl-3">upcoming network upgrades?</strong>
+                    {props.t1}
+                    <strong className="pl-3s">{props.t2}</strong>
                   </h4>
                 </div>
                 <div className="pl-1 pt-10 flex justify-end  text-[#7FF4E3] cursor-pointer">
                   <div className="pl-3 text-[#00CCAB] text-[16px] hover:text-[#7FF4E3]">
-                    <p className="text-[16px]">Go to the Roadmap</p>
+                    <p className="text-[16px]">{props.t3}</p>
                   </div>
                   <div className="pl-[8px]">
                     <svg

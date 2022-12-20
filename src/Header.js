@@ -7,24 +7,30 @@ import logoday from "../src/images/logo-day.svg";
 export default function Header() {
   return (
     <>
-      <div className=" ">
-        <div className="flex  justify-center items-center  ">
+      <div className="bg-white  overflow-hidden md:mb-0 mb-3 ">
+        <div className="flex  justify-center items-center md:h-[10px] h-0 pl-10 md:pl-0   ">
           <div className="pr-2">
-            <img src={headerimg} className="w-[30px] h-[30px]  " />
+            <img src={headerimg} className=" h-[30px]  w-[30px] " />
           </div>
           <div>
-            <p className=" pr-2 ">
-              <strong className="text-[#111B24]"> Community Validators </strong>
-              are live on the mainnet!
+            <p className=" pr-2 pt-5 md:pt-0    ">
+              <strong className="text-[#111B24] pl-5">
+                {" "}
+                Community Validators{" "}
+              </strong>
+              <span className="invisible md:visible">
+                {" "}
+                are live on the mainnet!
+              </span>
             </p>
           </div>
 
           {/* <div class="vl"></div> */}
-          <div class="h-[25px] ml-5 mt-1  bg-green-300 w-[2px]"></div>
+          <div class="h-[25px] ml-5 mt-1  bg-green-300 w-[2px] invisible md:visible "></div>
           {/* <div className="pl-5 hover:text-green-300">
             <p>Learn more</p>
           </div> */}
-          <div className="pl-1 pt-1 flex hover:text-green-300 cursor-pointer">
+          <div className="pl-1 pt-1 flex hover:text-green-300 cursor-pointer invisible md:visible  ">
             <div className="pl-3 hover:text-green-300">
               <p>Learn more</p>
             </div>
@@ -46,7 +52,7 @@ export default function Header() {
           </div>
         </div>
 
-        <div className="h-top-2">
+        <div className="h-top-2 overflow-hidden  invisible md:visible ">
           <div className="h-top-3"></div>
         </div>
       </div>

@@ -9,10 +9,10 @@ export default function Block2() {
     AOS.init({ duration: 3000 });
   }, []);
   return (
-    <div class="bg-[#111b24] ">
-      <div className="rounded-lg  bg-[#111b24]  shadow-lg  h-[350px] bg-pack-train1 pt-8   sm:mx-8">
-        <div data-aos="fade-right" className=" ">
-          <div class="  flex justify-start items-center pt-14 h-full  ">
+    <div class="bg-[#111b24]  md:py-0 py-32">
+      <div className="rounded-lg abc  bg-[#111b24]  shadow-lg  h-[350px] bg-pack-train1 bg-no-repeat pt-8  px-8">
+        <div data-aos="fade-right">
+          <div class="flex  justify-start items-center pt-14 h-full  ">
             <div class="  flex flex-col md:flex-row md:max-w-[650px] rounded-lg bg-white shadow-lg">
               <div className="zoomWrapper">
                 <img
@@ -21,8 +21,8 @@ export default function Block2() {
                   alt=""
                 />
               </div>
-              <div class="p-6 flex flex-col justify-start bg-[#111b24]">
-                <div className="flex justify-start mr-10 abc ">
+              <div class="p-6 flex flex-col justify-start bg-[#111b24] ">
+                <div className="flex justify-start mr-10   ">
                   <div class="h-[50px]  mt-1  bg-[#7FF4E3] w-[3px]"></div>
                   <h4
                     class="text-white  text-xl w-[240px] 
@@ -34,7 +34,7 @@ export default function Block2() {
                   </h4>
                 </div>
                 <div className="pl-1 pt-10 flex justify-end  text-[#7FF4E3] cursor-pointer">
-                  <div className="pl-3 text-[#7FF4E3] text-[16px]">
+                  <div className="pl-3 text-[#00CCAB] text-[16px] hover:text-[#7FF4E3]">
                     <p className="text-[16px]">Go to the Roadmap</p>
                   </div>
                   <div className="pl-[8px]">

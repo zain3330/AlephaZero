@@ -47,7 +47,7 @@ export default function Footer() {
   return (
     <footer div class="text-gray-600 body-font bg-[#111b24]">
       <div class="container px-[10px] py-[50px] mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-        <div className="flex-col pl-10">
+        <div className="flex-col pl-5 md:pl-10">
           <div className=" flex justify-start   ">
             <div class="h-[24px]  mt-1  bg-[#7FF4E3] w-[2px]"></div>
             <h4
@@ -77,13 +77,13 @@ export default function Footer() {
                 <input
                   type="search"
                   id="search"
-                  class="block w-[380px] max-h-[40px] p-4 pl-4 rounded-r-2xl text-sm text-gray-900 focus:outline-none border border-[#1B2B38] rounded-sm bg-[#0f171f] focus:ring-blue-500 focus:border-[#00EAC7] dark:bg-gray-700  dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  class="block  md:max-h-[40px] max-h-0 p-4 pl-4 rounded-r-2xl text-sm text-gray-900 focus:outline-none border border-[#1B2B38] rounded-sm bg-[#0f171f] focus:ring-blue-500 focus:border-[#00EAC7] dark:bg-gray-700  dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                   placeholder="Your Email"
                   required
                 />
                 <button
                   type="submit"
-                  class="flex text-[#111b24] absolute right-[2px] bottom-[1px] bg-[#00EAC7]  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-3xl text-sm px-10 py-[10px] dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 ">
+                  class="flex text-[#111b24] absolute right-[1px] mr-5 hover:bg-[#7FF4E3] md:mr-0 bottom-[1px] bg-[#00EAC7]  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-3xl text-sm px-5 py-[5px] md:py-[10px] md:px-10 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 ">
                   <div className="mr-2">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -260,7 +260,7 @@ export default function Footer() {
               <div className=" flex px-10 justify-between">
                 <div className="flex justify-start">
                   <div className="text-white  ">
-                    <img src={item.b4} class="w-[20px] h-[20px]" />
+                    <img src={item.b4} class="w-[20px] h-[20px] color" />
                   </div>
                   <div>
                     <p className="text-[14px] pl-2 ">{item.b5}</p>

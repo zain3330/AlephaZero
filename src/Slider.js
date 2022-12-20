@@ -22,46 +22,54 @@ export default function Slider1() {
   }, []);
   return (
     <>
-      <div class="marquee bg-[#111b24]">
-        <div data-aos="fade-up">
+      <div class="marquee bg-[#14202A]   " style={{}}>
+        <div className="hh-top-2  ">
+          <div className="hh-top-3 "></div>
+        </div>
+
+        <div data-aos="fade-up ">
           <div>
-            <p className="marquee-title">FEATURED IN</p>
+            <p className="marquee-title text-[15px] md:text-[12px]">
+              FEATURED IN
+            </p>
           </div>
-          <div class="marquee-content">
-            <div class="marquee-item">
-              <img className="bg-[#111b24]" src={camp5} alt="" />
+
+          <div class="marquee-content ">
+            <div class="marquee-item hover:opacity-100 transition duration-300 ease-in-out">
+              <img className="" src={camp5} alt="" />
+            </div>
+            <div class="marquee-item ">
+              <img className="" src={camp4} alt="" />
             </div>
             <div class="marquee-item">
-              <img className="bg-[#111b24]" src={camp4} alt="" />
+              <img className="" src={camp3} alt="" />
             </div>
             <div class="marquee-item">
-              <img className="bg-[#111b24]" src={camp3} alt="" />
+              <img className="" src={camp4} alt="" />
             </div>
             <div class="marquee-item">
-              <img className="bg-[#111b24]" src={camp4} alt="" />
+              <img className="" src={camp5} alt="" />
             </div>
             <div class="marquee-item">
-              <img className="bg-[#111b24]" src={camp5} alt="" />
+              <img className="" src={camp6} alt="" />
             </div>
             <div class="marquee-item">
-              <img className="bg-[#111b24]" src={camp6} alt="" />
+              <img className="" src={camp7} alt="" />
             </div>
             <div class="marquee-item">
-              <img className="bg-[#111b24]" src={camp7} alt="" />
+              <img className="" src={camp8} alt="" />
             </div>
             <div class="marquee-item">
-              <img className="bg-[#111b24]" src={camp8} alt="" />
+              <img className="" src={camp3} alt="" />
             </div>
             <div class="marquee-item">
-              <img className="bg-[#111b24]" src={camp3} alt="" />
+              <img className="" src={camp2} alt="" />
             </div>
             <div class="marquee-item">
-              <img className="bg-[#111b24]" src={camp2} alt="" />
-            </div>
-            <div class="marquee-item">
-              <img className="bg-[#111b24]" src={camp1} alt="" />
+              <img className="" src={camp1} alt="" />
             </div>
           </div>
+          <hr class="my-4 mx-auto h-px mb-14 w-[88%] bg-[#1B2B38] border-0 dark:bg-gray-700" />
         </div>
       </div>
     </>

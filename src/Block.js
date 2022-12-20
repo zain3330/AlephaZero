@@ -9,10 +9,10 @@ export default function Block() {
     AOS.init({ duration: 3000 });
   }, []);
   return (
-    <div class="bg-[#111b24]   ">
-      <div className="rounded-lg  bg-[#111b24]  shadow-lg  h-[350px] bg-pack-train    sm:mx-8">
+    <div class="bg-[#111b24] md:pb-20 pb-0  ">
+      <div className="rounded-lg  bg-[#111b24]  shadow-lg  h-[350px] bg-pack-train  bg-no-repeat bg-contain  px-8">
         <div data-aos="fade-left" className=" ">
-          <div class="  flex justify-end items-center pt-14 h-full  ">
+          <div class=" abc flex justify-end items-center pt-14 h-full  ">
             <div class="  flex flex-col md:flex-row md:max-w-[600px] rounded-lg bg-white shadow-lg">
               <div className="zoomWrapper ">
                 <img
@@ -22,7 +22,7 @@ export default function Block() {
                 />
               </div>
               <div class="p-6 flex flex-col justify-start bg-[#111b24]">
-                <div className="flex justify-start mr-10 abc ">
+                <div className="flex justify-start mr-10 ">
                   <div class="h-[80px]  mt-1  bg-[#7FF4E3] w-[5px]"></div>
                   <h4
                     class="text-white  text-xl w-[200px] 
@@ -34,7 +34,7 @@ export default function Block() {
                   </h4>
                 </div>
                 <div className="pl-1 pt-10 flex justify-end  text-[#7FF4E3] cursor-pointer">
-                  <div className="pl-3 text-[#7FF4E3] text-[16px]">
+                  <div className="pl-3 text-[#00CCAB] text-[16px] hover:text-[#7FF4E3]">
                     <p className="text-[16px]">Why Aleph Zero</p>
                   </div>
                   <div className="pl-[8px]">

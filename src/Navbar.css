@@ -43,3 +43,10 @@
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
+
+/* #meet:hover {
+  color: white;
+}
+#explore:hover ~ #meet {
+  color: #3e8e41 !important;
+} */

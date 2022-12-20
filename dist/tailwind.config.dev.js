@@ -7,6 +7,9 @@ module.exports = {
     extend: {
       visibility: ["group-hover"]
     },
+    fontFamily: {
+      "press-start": ["Karla", "sans - serif"]
+    },
     backgroundImage: {
       "pack-train": "url('../src/images/bg.svg')",
       "pack-train1": "url('../src/images/bg2.svg')",

@@ -55,12 +55,12 @@ export default function Azero() {
           className="h-[100px] w-[100%] overflow-hidden bg-[#111b24]"></img>
       </div>
 
-      <div class="grid grid-cols-3  bg-pack-train6  bg-no-repeat bg-contain   bg-[#111b24] px-36 py-20 items-center justify-center">
+      <div class="grid md:grid-cols-3  grid-cols-1 bg-pack-train6  bg-no-repeat bg-contain   bg-[#111b24] md:px-36 px-8 py-20 items-center justify-center">
         {data.map((item) => {
           return (
             <div
               data-aos="zoom-in"
-              className=" flex flex-col  w-[310px] border-2 border-[#1b2b38] border-b-[#00EAC7]  pt-2 bg-auto bg-no-repeat bg-pack-train3  bg-[#14202a] bg-pack-train3 ">
+              className=" flex flex-col  md:mb-0 mb-8 w-[310px] border-2 border-[#1b2b38] border-b-[#00EAC7]  pt-2 bg-auto bg-no-repeat bg-pack-train3  bg-[#14202a] bg-pack-train3 ">
               <img src={item.image} className="w-[96px] h-[96px] ml-5  "></img>
               <div className="flex pl-[28px]   ">
                 <div class="h-[20px]  mt-2  bg-[#7FF4E3] w-[3px]"></div>

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
@@ -18,6 +18,11 @@ import Community from "./Community";
 import Azero from "./Azero";
 import Driving from "./Driving";
 import Application from "./Application";
+import MainBlock from "./MainBlock";
+import lftimg from "../src/images/leftimg.jpg";
+import block2 from "../src/images/block2.jpg";
+import block3 from "../src/images/block3.jpg";
+import MainBlockComponent from "./MainBlockComponent";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -25,21 +30,57 @@ root.render(
   <React.StrictMode>
     {/* <App />
     {/* <Header /> */}{" "}
-    <Header />
-    {/* <Menu /> */}
-    {/* <Companines /> */}
-    <Navbar />
-    <Video />
-    <Static />
-    <Slider1 />
-    <Block />
-    <Block2 />
-    <Block3 />
-    <Community />
-    <Driving />
-    {/* <Application /> */}
-    <Azero />
-    <Footer />
+    <div className="bg-[#14202A]">
+      <Header />
+      <Navbar />
+      {/* <MainBlock /> */}
+      {/* <Menu /> */}
+      {/* <Companines /> */}
+      <Video />
+      <Static />
+      <Slider1 />
+      <MainBlockComponent
+        bg="pack-train"
+        icon={lftimg}
+        t1=" We're building a new take on"
+        t2="blockchain infrastructure"
+        t3="Why Aleph Zero"
+        justifycontent="justify-end"
+        padding="pt-20"
+        lineh="h-[80px]"
+        animation="fade-left"
+      />
+      {/* <Block /> */}
+      <Driving />
+      <MainBlockComponent
+        bg="pack-train1"
+        icon={block2}
+        t1="Curious about"
+        t2=" upcoming network upgrades?"
+        t3="Go to the Roadmap"
+        justifycontent="justify-start"
+        padding="pt-20"
+        lineh="h-[50px]"
+        animation="fade-right"
+      />
+      {/* <Block2 /> */}
+      <Community />
+      <MainBlockComponent
+        bg="pack-train2"
+        icon={block3}
+        t1="Aleph Zero is designed to "
+        t2="care for the environment"
+        t3="Our Carbon Footprint"
+        justifycontent="justify-end"
+        padding="pt-20"
+        lineh="h-[80px]"
+        animation="fade-left"
+      />
+      {/* <Block3 /> */}
+      <Application />
+      <Azero />
+      <Footer />
+    </div>
   </React.StrictMode>
 );
 

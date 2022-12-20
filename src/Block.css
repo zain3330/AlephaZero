@@ -44,7 +44,6 @@
   animation: flash 300ms infinite;
 }
 .abc:hover {
-  padding-right: 10px;
+  padding-left: 10px;
   transition-duration: 0.2s;
-  
 }

@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 
 export default function Static() {
   useEffect(() => {
-    AOS.init({ duration: 3000 });
+    AOS.init({ duration: 3000, disable: window.innerWidth < 768 });
   }, []);
   return (
     <section className=" py-20  bg-[#111b24]">
@@ -25,10 +25,12 @@ export default function Static() {
           data-aos="zoom-in"
           className="flex flex-col justify-center items-center ">
           <div className="pb-4">
-            <p className="text-[24px] text-[#ffffff]">0.0003 AZERO</p>
+            <p className="text-[24px] text-[#ffffff] w-[70px] md:w-full">
+              0.0003 AZERO
+            </p>
           </div>
           <div class="h-[2px] w-[65px]  mt-1   bg-green-300 "></div>
-          <div className="pt-4 text-[#bccbd6] text-[16px]">
+          <div className="pt-4 text-[#bccbd6] text-[16px] md:w-full w-[90px] ">
             <p>Avg Cost Per Transaction</p>
           </div>
         </div>
