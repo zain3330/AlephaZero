@@ -7,8 +7,8 @@ import logoday from "../src/images/logo-day.svg";
 export default function Header() {
   return (
     <>
-      <div className="bg-white  overflow-hidden md:mb-0 mb-3 ">
-        <div className="flex  justify-center items-center md:h-[10px] h-0 pl-10 md:pl-0   ">
+      <div className="bg-white  overflow-hidden md:mb-0 mb-0 invisible md:visible ">
+        <div className="flex  justify-center items-center md:h-[10px] h-0 pl-10 md:pl-0    ">
           <div className="pr-2">
             <img src={headerimg} className=" h-[30px]  w-[30px] " />
           </div>
@@ -30,7 +30,7 @@ export default function Header() {
           {/* <div className="pl-5 hover:text-green-300">
             <p>Learn more</p>
           </div> */}
-          <div className="pl-1 pt-1 flex hover:text-green-300 cursor-pointer invisible md:visible  ">
+          <div className="pl-1 pt-1 flex hover:text-green-300 cursor-pointer   ">
             <div className="pl-3 hover:text-green-300">
               <p>Learn more</p>
             </div>

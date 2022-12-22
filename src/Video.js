@@ -12,7 +12,7 @@ export default function () {
       </div>
     </div> */}
       <div className="bg-[#0f1113]   ">
-        <div class="aspect-w-16    aspect-video aspect-h-9  bg-[#0f1113]">
+        <div class="aspect-w-16  aspect-video md:aspect-square     aspect-h-9   bg-[#0f1113]">
           <iframe
             src="https://fast.wistia.com/embed/medias/26rzfjtw60"
             frameborder="0"

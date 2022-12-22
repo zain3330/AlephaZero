@@ -35,7 +35,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="w-full bg-[#111b24] shadow md:hidden ">
+      <nav className="w-full bg-[#111b24] shadow md:hidden pb-5  ">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -112,8 +112,8 @@ export default function Navbar() {
       <header
         className={`sticky ${
           scrollDirection === "down" ? "-top-24" : "top-0"
-        }  top-0 z-50  text-gray-600 body-font bg-[#111b24] invisible md:visible`}>
-        <div class=" container mx-auto flex flex-wrap md:pb-5 pb-0 px-5  flex-col md:flex-row items-center ">
+        }  top-0 z-50  text-gray-600 body-font  bg-[#111b24] md:block hidden `}>
+        <div class=" container mx-auto flex flex-wrap md:pb-5 pb-0  px-5  flex-col md:flex-row items-center ">
           <a class="flex title-font font-medium items-center text-gray-900 mb-2  md:pt-0  md:mb-0">
             <img src={logoday} className="w-auto h-[24px]" />
           </a>

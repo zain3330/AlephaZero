@@ -69,6 +69,7 @@ export default function Driving() {
     className: "center",
     centerPadding: "15px",
     centerMode: true,
+    pauseOnHover: false,
     autoplay: true,
     autoplaySpeed: 2000,
     dots: false,

@@ -17,12 +17,13 @@ import Block3 from "./Block3";
 import Community from "./Community";
 import Azero from "./Azero";
 import Driving from "./Driving";
-import Application from "./Application";
+// import Application from "./Application";
 import MainBlock from "./MainBlock";
 import lftimg from "../src/images/leftimg.jpg";
 import block2 from "../src/images/block2.jpg";
 import block3 from "../src/images/block3.jpg";
 import MainBlockComponent from "./MainBlockComponent";
+import Scelton from "./Scelton";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -77,7 +78,8 @@ root.render(
         animation="fade-left"
       />
       {/* <Block3 /> */}
-      <Application />
+      {/* <Application /> */}
+      <Scelton />
       <Azero />
       <Footer />
     </div>

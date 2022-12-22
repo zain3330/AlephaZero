@@ -129,9 +129,9 @@ export default function Footer() {
           </p>
         </div> */}
         <div class="flex-grow flex flex-wrap md:pl-20 -mb-12 md:mt-0 mt-10 md:text-left text-center">
-          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h4 class="title-font font-medium text-[16px] font-sans text-[#ffff] leading-10  tracking-widest text-sm mb-3">
-              CATEGORIES
+          <div class="lg:w-1/4 md:w-1/2 w-[170px] px-4">
+            <h4 class="title-font font-medium text-[16px] font-sans text-[#ffff] leading-10   tracking-widest text-sm mb-3">
+              Categories
             </h4>
 
             <nav class="list-none mb-10 ">
@@ -168,7 +168,7 @@ export default function Footer() {
               </li>
             </nav>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <div class="lg:w-1/4 md:w-1/2 w-[170px] px-4">
             <h4 class="title-font font-medium text-[16px] font-sans text-[#ffff] leading-10  tracking-widest text-sm mb-3">
               Use
             </h4>
@@ -193,7 +193,7 @@ export default function Footer() {
               </li>
             </nav>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <div class="lg:w-1/4 md:w-1/2 w-[170px] px-4">
             <h4 class="title-font font-medium text-[16px]  text-[#ffff] leading-10  tracking-widest text-sm mb-3">
               Explore
             </h4>
@@ -217,7 +217,7 @@ export default function Footer() {
               </li>
             </nav>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <div class="lg:w-1/4 md:w-1/2 w-[170px] px-4">
             <h4 class="title-font font-medium text-[16px] font-sans leading-10 text-[#ffff]  tracking-widest text-sm mb-3">
               Meet Us
             </h4>

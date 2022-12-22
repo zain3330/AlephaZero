@@ -36,37 +36,37 @@ export default function Slider1() {
 
           <div class="marquee-content ">
             <div class="marquee-item hover:opacity-100 transition duration-300 ease-in-out">
-              <img className="" src={camp5} alt="" />
+              <img className="opac " src={camp5} alt="" />
             </div>
             <div class="marquee-item ">
-              <img className="" src={camp4} alt="" />
+              <img className="opac " src={camp4} alt="" />
             </div>
             <div class="marquee-item">
-              <img className="" src={camp3} alt="" />
+              <img className="opac " src={camp3} alt="" />
             </div>
             <div class="marquee-item">
-              <img className="" src={camp4} alt="" />
+              <img className="opac " src={camp4} alt="" />
             </div>
             <div class="marquee-item">
-              <img className="" src={camp5} alt="" />
+              <img className="opac " src={camp5} alt="" />
             </div>
             <div class="marquee-item">
-              <img className="" src={camp6} alt="" />
+              <img className="opac " src={camp6} alt="" />
             </div>
             <div class="marquee-item">
-              <img className="" src={camp7} alt="" />
+              <img className="opac " src={camp7} alt="" />
             </div>
             <div class="marquee-item">
-              <img className="" src={camp8} alt="" />
+              <img className="opac " src={camp8} alt="" />
             </div>
             <div class="marquee-item">
-              <img className="" src={camp3} alt="" />
+              <img className="opac " src={camp3} alt="" />
             </div>
             <div class="marquee-item">
-              <img className="" src={camp2} alt="" />
+              <img className="opac " src={camp2} alt="" />
             </div>
             <div class="marquee-item">
-              <img className="" src={camp1} alt="" />
+              <img className="opac " src={camp1} alt="" />
             </div>
           </div>
           <hr class="my-4 mx-auto h-px mb-14 w-[88%] bg-[#1B2B38] border-0 dark:bg-gray-700" />
