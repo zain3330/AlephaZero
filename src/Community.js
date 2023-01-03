@@ -39,7 +39,7 @@ export default function Community() {
           <div>
             <button
               type="submit"
-              class=" text-[#00ccab] mt-6  bg-[#0f3538]  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-3xl text-sm px-8 py-[12px] dark:bg-blue-600 dark:hover:bg-blue-700 hover:bg-[#0e4445] dark:focus:ring-blue-800 ">
+              class=" text-[#00ccab] mt-6  bg-[#0f3538]  focus:ring-4 focus:outline-none  font-medium rounded-3xl text-sm px-8 py-[12px]  hover:bg-[#0e4445]  ">
               <span className="text-[16px]">Get involved</span>
             </button>
           </div>

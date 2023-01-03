@@ -83,7 +83,7 @@ export default function Footer() {
                 />
                 <button
                   type="submit"
-                  class="flex text-[#111b24] absolute right-[1px] mr-5 hover:bg-[#7FF4E3] md:mr-0 bottom-[1px] bg-[#00EAC7]  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-3xl text-sm px-5 py-[5px] md:py-[10px] md:px-10 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 ">
+                  class="flex text-[#111b24] absolute right-[1px] mr-5 hover:bg-[#7FF4E3] md:mr-0 bottom-[1px] bg-[#00EAC7]  focus:ring-4 focus:outline-none  font-medium rounded-3xl text-sm px-5 py-[5px] md:py-[10px] md:px-10  ">
                   <div className="mr-2">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
